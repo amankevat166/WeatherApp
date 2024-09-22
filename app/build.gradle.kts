@@ -8,6 +8,7 @@ android {
     namespace = "com.example.weatheraman"
     compileSdk = 34
 
+
     defaultConfig {
         applicationId = "com.example.weatheraman"
         minSdk = 24
@@ -66,4 +67,6 @@ dependencies {
     val lifecycle_version = "2.8.5"
     implementation("androidx.lifecycle:lifecycle-viewmodel-ktx:$lifecycle_version")
     implementation("androidx.lifecycle:lifecycle-livedata-ktx:$lifecycle_version")
+
+    implementation ("com.google.android.gms:play-services-location:21.0.1")
 }

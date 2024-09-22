@@ -9,4 +9,7 @@
 
     <style name="Theme.WeatherAman" parent="Base.Theme.WeatherAman" />
 
+    <style name="SCREEN">
+        <item name="android:background">@drawable/gradient</item>
+    </style>
 </resources>
